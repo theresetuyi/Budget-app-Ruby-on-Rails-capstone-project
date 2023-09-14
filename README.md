@@ -66,7 +66,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](VERY SOON    )
+- [Live Demo Link](https://railsproject-eahw.onrender.com  )
+- [Loomlink] (https://www.loom.com/share/04fc614fdd524fcd96484b2e41ab7100)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +129,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+ rspec 
 ```
 ### Deployment
 
@@ -136,7 +137,7 @@ You can deploy this project using:
 
 
 ```sh
-    Heroku
+    render
 ```
 
 
