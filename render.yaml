@@ -1,0 +1,18 @@
+databases:
+  - name: microverse
+    databaseName: mysite
+    user: microverse_yif4_user
+
+services:
+  - type: web
+    name: project
+    runtime: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: microverse
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
