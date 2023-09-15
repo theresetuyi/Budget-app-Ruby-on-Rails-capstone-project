@@ -67,7 +67,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://railsproject-eahw.onrender.com  )
-- [Loomlink] (https://www.loom.com/share/04fc614fdd524fcd96484b2e41ab7100)
+- [Loom link](https://www.loom.com/share/2b5c936b70e344fda5cf3982d4c2577c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
